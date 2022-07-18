@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "docker_rails_sample",
+			"path": "../docker_rails_sample/docker_rails_sample"
+		},
+		{
+			"name": "webapp",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
