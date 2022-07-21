@@ -30,3 +30,7 @@ EXPOSE 3000
 
 CMD bash -c "rm -f tmp/pids/server.pid && bundle exec puma -C config/puma.rb"
 
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - \
+
+RUN apt-get install -y \
+      apt-utils
